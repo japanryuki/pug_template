@@ -1,0 +1,49 @@
+
+//- mixin
+- var pcSize = 768
+- var imgPath = `/assets/img/`
+- var imgWebpPath = `/assets/img-webp/`
+mixin sourceImg(fileName, extension = 'png', altName = '', sp = false, type = 'multi', pagePath = imgPath, pageWebpPath = imgWebpPath)
+  - if (type == 'multi')
+    - if (sp == true)
+        picture
+            source(
+                type='image/webp',
+                media=`(min-width:${pcSize}px)`,
+                srcset=`${pageWebpPath}${fileName}.webp`
+            )
+            source(
+                type='image/webp',
+                media=`(max-width:${pcSize - 1}px)`,
+                srcset=`${pageWebpPath}${fileName}-sp.webp`
+            )
+            source(
+                media=`(min-width:${pcSize}px)`,
+                srcset=`${pagePath}${fileName}.${extension}`
+            )
+            source(
+                media=`(max-width:${pcSize - 1}px)`,
+                srcset=`${pagePath}${fileName}-sp.${extension}`
+            )
+            img(src=`${pagePath}${fileName}.${extension}`, alt=altName).lazyload
+    - else
+        picture
+            source(
+                type='image/webp',
+                srcset=`${pageWebpPath}${fileName}.webp`
+            )
+            source(
+                srcset=`${pagePath}${fileName}.${extension}`
+            )
+            img(src=`${pagePath}${fileName}.${extension}`, alt=altName).lazyload
+  - else
+    picture
+      source(
+        type='image/webp',
+        srcset=`${pageWebpPath}${fileName}.webp`
+      )
+      img(
+        srcset=`${pagePath}${fileName}.${extension}`,
+        src=`${pagePath}${fileName}.${extension}`,
+        alt=altName
+      ).lazyload

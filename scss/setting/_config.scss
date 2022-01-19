@@ -1,0 +1,26 @@
+// color
+$blue1: #0450bf;
+
+// layer
+$layer: (
+    header: 100,
+    overlay: 101,
+    drawer: 102,
+);
+
+// font
+@font-face {
+    font-family: "YuGothicStdN";
+    src: url("../font/YuGothicStdN/YuGoStdN-E.otf");
+}
+
+$font-family-default: "游ゴシック体", "Yu Gothic", yugothic, "ヒラギノ角ゴ Pro",
+    "Hiragino Kaku Gothic Pro", "メイリオ", meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+$font-family-base: $font-family-default;
+
+// break point
+$breakpoints: (
+    "sm": "(max-width: 767px)",
+    "md": "(min-width: 768px)",
+    "lg": "(min-width: 1366px)",
+);

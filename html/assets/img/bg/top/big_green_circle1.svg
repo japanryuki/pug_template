@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-100 -100 788 824.7">
+<defs>
+<style>.anime-1{opacity:0.11;fill:url(#名称未設定グラデーション_75);}</style>
+<linearGradient id="名称未設定グラデーション_75" x1="1341.67" y1="9240.68" x2="2071.61" y2="9244.75" gradientTransform="translate(2865.25 9338.94) rotate(174.18)" gradientUnits="userSpaceOnUse">
+<stop offset="0.08" stop-color="#a1bea1"/>
+<stop offset="0.24" stop-color="#acc48a"/>
+<stop offset="0.56" stop-color="#c9d54e"/>
+<stop offset="0.95" stop-color="#eeea00"/>
+</linearGradient>
+</defs>
+<g>
+<g>
+<path class="anime-1">
+<animate
+attributeType="XML"
+attributeName="d"
+dur="1s"
+repeatCount="indefinite"
+values="M2.18,351.4C-14.28,190.08,61.55-7.72,267.23.23c162,6.27,302.68,130.25,319.13,291.57s-93.1,315-254.42,331.46S18.63,512.71,2.18,351.4Z" />
+</path>
+<animateTransform
+    attributeName="transform"
+    type="rotate"
+    dur="12s"
+    repeatCount="indefinite"
+    from="0,290,310"
+    to="360,290,310"/>
+</g>
+</g>
+</svg>

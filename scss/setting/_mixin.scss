@@ -1,0 +1,17 @@
+@mixin mq($breakpoint: pc) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin mqFree($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin mqFreeMax($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-100 -100 600.49 600.43">
+<defs>
+<style>.svg-bg4{opacity:0.32;fill:url(#linear-gradient1);}</style>
+<linearGradient id="linear-gradient1" x1="4233.26" y1="-303.38" x2="4757.88" y2="-300.45" gradientTransform="translate(-2870.07 3433.36) rotate(-42.25)" gradientUnits="userSpaceOnUse">
+<stop offset="0.03" stop-color="#eeea00"/>
+<stop offset="0.25" stop-color="#eee500" stop-opacity="0.75"/><stop offset="0.62" stop-color="#eede00" stop-opacity="0.35"/>
+<stop offset="0.88" stop-color="#eed900" stop-opacity="0.1"/><stop offset="1" stop-color="#eed700" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g>
+<path class="svg-bg4">
+<animate
+attributeType="XML"
+attributeName="d"
+dur="1s"
+repeatCount="indefinite"
+values="M371.3,70.33c78.36,86.27,118.92,233-3.41,316.19-96.38,65.53-230.62,53.85-309-32.41s-80.6-221.9,5.67-300.26S292.94-15.93,371.3,70.33Z" />
+</path>
+<animateTransform
+      attributeName="transform"
+      type="rotate"
+      dur="12s"
+      repeatCount="indefinite"
+      from="0,222,210"
+      to="360,220,210"/>
+</g>
+</svg>

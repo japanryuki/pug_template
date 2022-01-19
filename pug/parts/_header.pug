@@ -1,0 +1,40 @@
+header
+    div.header_inner.flex.justify_between.align_center.max-width_1200
+        ul.header_nav.flex_pc.align_center.justify_between
+            li.regen
+                a(href="/").js_nav_link TOP
+            li.regen
+                a(href="/about/").js_nav_link ABOUT
+                ul 
+                    li 
+                        a(href="/about/#about") フローフシについて
+                    li 
+                        a(href="/about/#salon") 内装
+                    li 
+                        a(href="/about/#staff") STAFF
+                    li 
+                        a(href="/about/#access") ACCESS
+                    li 
+                        a(href="/about/#faq") FAQ
+                    li 
+                        a(href="/about/#contact") CONTACT
+            li.regen
+                a(href="/service").js_nav_link SERVICE
+                ul 
+                    li 
+                        a(href="/service/#step") 3STEP
+                    li 
+                        a(href="/service/#service") SERVICE
+                    li 
+                        a(href="/service/#course") COURSE
+                    li 
+                        a(href="/service/#price") PRICE
+                    li 
+                        a(href="/service/#reserve") RESERVE
+            li.regen
+                a(href="https://instagram.com/fulo_fusi.official", target="_blank"): include ../../html/assets/img/instagram.svg
+        div.header_logo.mt_pc_2
+            a(href="/").js_nav_link: include ../../html/assets/img/logo.svg
+        a.drawer_opener.js_dopener
+            span 
+                span

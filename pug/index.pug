@@ -1,0 +1,23 @@
+include _mixin.pug
+- var title = "フローフシ∞ | だれもが願い続ける永遠の美を叶えるために"
+
+doctype html
+html(lang="ja")
+  head
+    include ./include/_head
+  body
+
+    include ./include/_header
+    include ./include/_drawer
+    main.main
+      include ./include/top/_mv
+      include ./include/top/_concept
+      include ./include/top/_point
+      include ./include/top/_search
+      include ./include/top/_news
+      include ./include/top/_reserve
+    include ./include/_script
+    include ./include/_footer
+    div.contact_btn 
+        a(href="reserve").regen
+            span RESERVE
